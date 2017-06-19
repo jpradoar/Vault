@@ -1,4 +1,6 @@
-# vault by hashicorp
+<p align="center">
+  <img src="vault.svg"/><br>
+</p>
 
 OJO, ESTA EN TESTING...!!!
 
@@ -9,7 +11,7 @@ It is only necessary to download the file, unzip it and run it. :)
 In this document, security is not disabled, only in basic functionality.
 </pre>
 
-# INFRASTRUCTURE SCHEME
+### INFRASTRUCTURE SCHEME
 
 <pre>
 Secure_server 	i-1eseeacacf1f523a2   t2.micro      172.31.27.65
@@ -18,7 +20,7 @@ Seure_client	  i-1eseeacacf1f523a3   t2.micro      172.31.27.66
 
 
 
-# INSTALATION AND CONFIGURATION PROCESS
+### INSTALATION AND CONFIGURATION PROCESS
 
 <pre>
 Download package
@@ -67,7 +69,7 @@ disable_mlock = true
 
 
 
-# STARTING PROCESS [ Vault-Server ]
+### STARTING PROCESS [ Vault-Server ]
 
 <pre>
 Start the server
@@ -169,7 +171,7 @@ Create a token
 </pre>
 
 
-# CLIENT CONFIGURATION PROCESS [ Vault-Client ] 
+### CLIENT CONFIGURATION PROCESS [ Vault-Client ] 
 
 <pre>
 I'm assumed that vault is installed in the client and is the similar version...
@@ -221,7 +223,7 @@ Generate a secret
 </pre>
 
 
-# CASE OF USE
+### CASE OF USE
 <pre>
 A case of use, for example is:
 A tree or path recursive to remember easily.  Of course it is a basic example but you need create your particular case in your infrastructure.
