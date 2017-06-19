@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="vault.svg"/><br>
+  <img src="VaultLogo.png"/><br>
 </p>
 
 OJO, ESTA EN TESTING...!!!
